@@ -1,6 +1,6 @@
 # EC2-Alert
 
-Automatated email notification for state change of EC2 instance.
+Automated email notification for state change of EC2 instance.
 
 This script is created to get email notification to subscribed email whenever state of any EC2 instance changes. Let's start with the setup. Please follow below steps: 
 
@@ -38,12 +38,11 @@ This script is created to get email notification to subscribed email whenever st
 
 **Step4: Create Policy for SNS topic**
 
-1. Search Iam and click on Policy.
+1. Search IAM and click on Policy.
 2. Click on create policy.
-3. Select service : SNS
-4. Action Write:Publish
-5. Resource: select specific and enter your SNS topic ARN. Click on create policy
-6. Add this policy to existising role create in create Lamda function
+3. Select service : SNS.
+4. Action Write:Publish.
+5. Resource: select specific and enter your SNS topic ARN. Click on create policy.
+6. Add this policy to existising role create in create Lamda function.
 
-Congratulations!! now you are ready to use EC2_Alert.py Script.
-
+Congratulations!! now you are ready to use EC2_Alert.py script.
