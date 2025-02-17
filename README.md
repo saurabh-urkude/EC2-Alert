@@ -1,6 +1,6 @@
 # EC2-Alert
 
-Automated email notification for state change of EC2 instance..
+Automated email notification for state change of EC2 instance.
 
 This script is created to get email notification to subscribed email whenever state of any EC2 instance changes. Let's start with the setup. Please follow below steps: 
 
